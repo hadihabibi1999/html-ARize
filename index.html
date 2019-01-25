@@ -4,62 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <title>Document</title>
-    <style>
-    h2{
-        color:blueviolet;
-        text-align: center;
-        padding-top: 60px;
-    }
-    .column0{
-        float:left;
-    }
-    .column1{
-        float:left;
-        margin-top:20px;
-    }
-    .column2{
-        float:left;
-        margin-top:20px;
-         position:relative;
-         left:30px;
-    }
-    h6{
-        font-weight: bold;
-    }
-    .row{
-       align-items: center;
-       justify-content: center;
-       margin-left:250px;
-       margin-top:100px;
-    }
-    p{
-        font-size:30;
-        color:rgb(159, 165, 175);
-    }
-    img{
-        float:left;
-        position:relative;
-        right:15px;
-    }
-    </style>
-  
 </head>
 <body>
    
-    <div>
+    <div class="jumbotron text-center">
          <h2>Amazing Featurs</h2>
     </div>
 
-   <div class="row">
+    <div class="container">
+        <div class="row">
 
-             <div class="column0">
+             <div class="col-sm-5">
                      <img src="https://staticshop.o2.co.uk/product/images/iphone-x-space-grey-sku-header.png?cb=25dc5afb0412fc40a28aa29d82cb53d0"/>
              </div>
           
-            
-             <div class="column1">
+             
+             <div class="col-sm-4">
 
                    <div>
                         <img src="https://image.flaticon.com/icons/svg/126/126473.svg" width="20" height="20" alt="">
@@ -78,10 +42,13 @@
                         <h4>  24/7 support </h4>
                         <p>lomey is a simply dunny  </p>
                    </div>
+                
             </div>
+           
 
-          
-            <div class="column2">
+           
+            <div class="col-sm-3">
+
                    <div>
                     <img src="https://image.flaticon.com/icons/svg/126/126488.svg"  width="20" height="20" alt="">
                     <h4>  Beautiful Design</h4>
@@ -100,8 +67,10 @@
                     <p>lomey is a simply dunny  </p>
                  </div>
 
+              </div>
 
-            </div>
+         </div>
+    
    </div>        
 </body>
 </html>
