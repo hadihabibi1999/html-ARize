@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FaceBook by 'Hadi'</title>
+    <style>
+        .head{
+            display:flex;
+            flex-direction: row;
+            background-color: #3a5998;
+            width:100%;
+            height: 90px;
+    }
+        body{
+             margin:0px;
+             padding:0px;
+    }
+         a{  
+           color:rgb(239, 248, 242);
+           font-size:40px;
+           text-decoration:none;
+          
+    }
+         .leftSide{
+                   flex:1;
+                   text-align: center; 
+                   padding-top:35px;
+    }
+        .rightSide{
+                   flex:1;   
+                   color: rgb(224, 228, 231); 
+                   padding-left: 200px;
+                   padding-top: 30px;
+    }
+        .body{
+            border-left: 10px solid #3a5998;
+            background-color:steelblue;
+            height:80px;
+            width:180px;
+            padding: 20px;
+            text-align: center;
+            margin-top: 585px;
+            border-top-right-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class='head'>
+        <div class='leftSide'>
+            <font face='arial'><b><a href='https://en-gb.facebook.com' title='Go to real facebook'> facebook </a></b></font>
+        </div>
+        <div class='rightSide'>
+            <form action=""><table><tr><td>Email or Phone:<br> <input type='text'></td><td> Password:<br> <input type='text'></td><td><br><input type='submit' value='Login' title='submit it'></td></tr></table></form>
+        </div>
+    </div>
+    <div class='body'>
+       <p style='color:rgb(240, 240, 245)'>to find out what the time is ...</p>
+       <button onclick="time()" style='color:rgb(59, 42, 211)'>Time</button>
+    </div>
+
+    <script src='index.js'></script>
+</body>
+</html>
